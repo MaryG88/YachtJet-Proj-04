@@ -1,3 +1,5 @@
+/* Reset styles */
+
 h1,
 h2,
 h3,
@@ -8,23 +10,18 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ul, ol {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
 }
 
 button {
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
