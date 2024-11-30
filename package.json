@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/YachtJet-proj-04/",
+    "build": "vite build --base=/YachtJet-Proj-04/",
     "preview": "vite preview"
   },
   "devDependencies": {
