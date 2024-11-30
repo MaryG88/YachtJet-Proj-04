@@ -5,26 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DvPDDfy5.css">
+    
+    <link rel="stylesheet" href="/YachtJet-proj-04/assets/styles-68bcdc02.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/vanilla-app-template/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
+    <header class="header-section">
+  <div class="header-container container">
+    <a href="" class="header-logo">yachtjet</a>
+    <nav class="header-nav">
+      <ul class="nav-list-header">
         <li class="nav-item">
-          <a class="nav-link active" href="./page-2.html">Page 2</a>
+          <a href="#about" class="header-nav-link current">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+          <a href="#our_yachts" class="header-nav-link">Yachts</a>
+        </li>
+        <li class="nav-item">
+          <a href="#reviews" class="header-nav-link">Reviews</a>
         </li>
       </ul>
     </nav>
+    <ul class="icon-list-soc">
+      <li class="icon-item-soc">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          class="icon-link-soc-header"
+        >
+          <svg class="soc-icon-soc" width="24" height="24">
+            <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="icon-item-soc">
+        <a
+          href="https://www.youtube.com/c/GoIT "
+          target="_blank"
+          class="icon-link-soc-header"
+        >
+          <svg class="soc-icon-soc" width="24" height="24">
+            <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="icon-item-soc">
+        <a
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          class="icon-link-soc-header"
+        >
+          <svg class="soc-icon-soc" width="24" height="24">
+            <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <button
+      type="button"
+      class="mobile-button"
+      data-menu-open
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="button-icon" width="16" height="16">
+        <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-menu-burger"></use>
+      </svg>
+    </button>
   </div>
 </header>
 
@@ -39,18 +85,66 @@
       </div>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
+    <footer class="fotter-yacht-container">
+  <div class="container-footer page-footer-yacht">
+    <div class="div-footer">
+      <a class="footer-logo-yacht" href="./index.html">yachtjet</a>
+      <nav class="footer-nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#our_yachts" class="nav-link">Yachts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#reviews" class="nav-link">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="icon-list">
+        <li class="icon-item">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            class="icon-link-footer"
+          >
+            <svg class="soc-icon" width="20" height="20">
+              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icon-item">
+          <a
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            class="icon-link-footer"
+          >
+            <svg class="soc-icon" width="19" height="19">
+              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icon-item">
+          <a
+            href="https://www.facebook.com/goITclub"
+            target="_blank"
+            class="icon-link-footer"
+          >
+            <svg class="soc-icon" width="19" height="19">
+              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="title-footer">
+      No matter which yacht you choose, our experienced crew will ensure that
+      your journey is smooth and enjoyable.
+    </p>
+    <p class="article-footer">
+      2023. Yacht Adventures
+      <span class="span-footer-article">Privacy Police</span>
     </p>
   </div>
 </footer>
